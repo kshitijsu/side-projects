@@ -1,0 +1,21 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Kshitij Ukey",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
